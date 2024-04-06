@@ -1,7 +1,0 @@
--- CREATE TABLE user (
---     user_id INTEGER PRIMARY KEY AUTOINCREMENT,
---     name VARCHAR(255) NOT NULL,
---     score INTEGER NOT NULL
--- );
--- PRAGMA table_list;
--- delete table user;
