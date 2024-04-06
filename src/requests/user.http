@@ -1,0 +1,35 @@
+
+###
+
+GET http://localhost:8787/api/user
+
+###
+
+GET http://localhost:8787/api/user/top
+###
+
+GET http://localhost:8787/api/user/2
+
+###
+
+POST http://localhost:8787/api/user
+Content-type: application/json
+
+{
+    "name": "Oso9",
+    "score": 90
+}
+
+###
+
+PUT http://localhost:8787/api/user/2
+Content-type:  application/json
+
+{
+    "name": "John Doe",
+    "score": 70
+}
+
+###
+
+DELETE http://localhost:8787/api/user/2
